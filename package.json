@@ -10,6 +10,7 @@
 	"author": "",
 	"license": "ISC",
 	"devDependencies": {
+		"@types/node": "^18.11.18",
 		"prisma": "^4.8.1",
 		"tsx": "^3.12.2"
 	},
@@ -17,5 +18,8 @@
 		"@fastify/cors": "^8.2.0",
 		"@prisma/client": "^4.8.1",
 		"fastify": "^4.11.0"
+	},
+	"prisma": {
+		"seed": "tsx prisma/seed.ts"
 	}
 }
